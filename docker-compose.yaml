@@ -1,0 +1,56 @@
+version: '3.7'
+
+services:
+  postgres_db:
+    container_name: album_postgres
+    image: postgres:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - 5436:5432
+    environment:
+      - POSTGRES_USER=maxim
+      - POSTGRES_PASSWORD=123qwe
+      - POSTGRES_DB=albumapppsql
+    env_file:
+      - .env
+
+
+  web_app:
+    container_name: album
+    build: .
+    command: bash /usr/src/AlbumApp/run.sh
+    volumes:
+      - .:/usr/src/AlbumApp
+    ports:
+      - 8000:8000
+    depends_on:
+      - postgres_db
+    restart: always
+    env_file:
+      - .env
+
+  redis:
+    image: redis
+    container_name: albumapp_redis
+    ports:
+      - 6379:6379
+    restart: always
+
+  celery:
+    restart: always
+    container_name: albumapp_celery
+    build: .
+    command: celery -A config worker -l info
+    volumes:
+      - .:/usr/src/AlbumApp
+    links:
+      - redis
+    depends_on:
+      - postgres_db
+      - web_app
+      - redis
+    env_file:
+      - .env
+volumes:
+  postgres_data:
