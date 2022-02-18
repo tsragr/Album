@@ -1,0 +1,10 @@
+[
+  {
+    "model": "app.mailing",
+    "pk": 1,
+    "fields": {
+      "title": "Test",
+      "text": "Test"
+    }
+  }
+]

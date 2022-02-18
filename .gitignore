@@ -1,0 +1,12 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+.idea
+venv
+.env
+media/*
+!media/fixture_image/test.jpg
+celerybeat-schedule
+app/migrations

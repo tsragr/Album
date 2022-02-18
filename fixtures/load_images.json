@@ -1,0 +1,362 @@
+[
+  {
+    "model": "app.image",
+    "pk": 1,
+    "fields": {
+      "title": "test",
+      "owner": 1,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 2,
+    "fields": {
+      "title": "test2",
+      "owner": 1,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 3,
+    "fields": {
+      "title": "test3",
+      "owner": 1,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 4,
+    "fields": {
+      "title": "test4",
+      "owner": 2,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 5,
+    "fields": {
+      "title": "test5",
+      "owner": 2,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 6,
+    "fields": {
+      "title": "test6",
+      "owner": 2,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 7,
+    "fields": {
+      "title": "test7",
+      "owner": 3,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 8,
+    "fields": {
+      "title": "test8",
+      "owner": 3,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 9,
+    "fields": {
+      "title": "test9",
+      "owner": 3,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 10,
+    "fields": {
+      "title": "test10",
+      "owner": 4,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 11,
+    "fields": {
+      "title": "test11",
+      "owner": 4,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 12,
+    "fields": {
+      "title": "test2",
+      "owner": 4,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 13,
+    "fields": {
+      "title": "test15",
+      "owner": 5,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 14,
+    "fields": {
+      "title": "test14",
+      "owner": 5,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 15,
+    "fields": {
+      "title": "test15",
+      "owner": 5,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 16,
+    "fields": {
+      "title": "test16",
+      "owner": 6,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 17,
+    "fields": {
+      "title": "test17",
+      "owner": 6,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 18,
+    "fields": {
+      "title": "test18",
+      "owner": 6,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 19,
+    "fields": {
+      "title": "test19",
+      "owner": 7,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 20,
+    "fields": {
+      "title": "test20",
+      "owner": 7,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 21,
+    "fields": {
+      "title": "test21",
+      "owner": 7,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 22,
+    "fields": {
+      "title": "test22",
+      "owner": 8,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 23,
+    "fields": {
+      "title": "test23",
+      "owner": 8,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 24,
+    "fields": {
+      "title": "test24",
+      "owner": 8,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 25,
+    "fields": {
+      "title": "test25",
+      "owner": 9,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 26,
+    "fields": {
+      "title": "test26",
+      "owner": 9,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 27,
+    "fields": {
+      "title": "test27",
+      "owner": 9,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 28,
+    "fields": {
+      "title": "test28",
+      "owner": 10,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 29,
+    "fields": {
+      "title": "test29",
+      "owner": 10,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  },
+  {
+    "model": "app.image",
+    "pk": 30,
+    "fields": {
+      "title": "test30",
+      "owner": 10,
+      "image": "fixture_image/test.jpg",
+      "views": 0,
+      "created": "2022-02-18T11:38:54.960Z",
+      "updated": "2022-02-18T11:38:54.960Z"
+    }
+  }
+]
